@@ -1,0 +1,2 @@
+Private-Package: br.com.pcsist.teste.osgi2.internal
+Export-Package: br.com.pcsist.teste.osgi2
