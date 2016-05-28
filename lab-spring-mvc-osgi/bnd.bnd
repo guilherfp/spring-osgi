@@ -1,0 +1,10 @@
+Bundle-Vendor: PC Informática
+Import-Package: \
+	javax.servlet.http,\
+	com.fasterxml.jackson.core,\
+	com.fasterxml.jackson.databind,\
+	org.springframework.web.servlet,\
+	org.springframework.osgi.web.context.support,\
+	org.springframework.web.accept,\
+	org.springframework.http.converter.json,\
+	*
