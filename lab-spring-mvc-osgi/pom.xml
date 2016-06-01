@@ -17,6 +17,7 @@
     <osgi.version>6.0.0</osgi.version>
     <slf4j.version>1.7.21</slf4j.version>
     <jackson.version>1.9.10</jackson.version>
+    <spring.version>3.2.14.RELEASE</spring.version>
   </properties>
 
   <dependencies>
@@ -35,17 +36,17 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
-      <version>3.2.4.RELEASE</version>
+      <version>${spring.version}</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
-      <version>3.2.4.RELEASE</version>
+      <version>${spring.version}</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>1.7.21</version>
+      <version>${slf4j.version}</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
